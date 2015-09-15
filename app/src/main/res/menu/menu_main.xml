@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+
+        <item
+            android:id="@+id/zoo_info"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+
+            android:title="Zoo Info" />
+
+
+        <item
+            android:id="@+id/uninstall"
+            android:orderInCategory="2"
+            android:showAsAction="never"
+            android:title="Uninstall" />
+
+</menu>
